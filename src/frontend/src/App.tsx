@@ -15,7 +15,7 @@ export default function App() {
         className="fixed top-0 left-1/4 w-96 h-96 orb pointer-events-none z-0"
         style={{
           background:
-            "radial-gradient(circle, oklch(0.82 0.18 200 / 0.08) 0%, transparent 70%)",
+            "radial-gradient(circle, oklch(0.55 0.22 25 / 0.08) 0%, transparent 70%)",
         }}
         aria-hidden="true"
       />
@@ -23,7 +23,7 @@ export default function App() {
         className="fixed bottom-1/3 right-0 w-80 h-80 orb pointer-events-none z-0"
         style={{
           background:
-            "radial-gradient(circle, oklch(0.75 0.22 215 / 0.06) 0%, transparent 70%)",
+            "radial-gradient(circle, oklch(0.65 0.22 15 / 0.06) 0%, transparent 70%)",
         }}
         aria-hidden="true"
       />
@@ -41,9 +41,9 @@ export default function App() {
         theme="dark"
         toastOptions={{
           style: {
-            background: "oklch(0.16 0.025 248)",
-            border: "1px solid oklch(0.82 0.18 200 / 0.3)",
-            color: "oklch(0.95 0.01 230)",
+            background: "oklch(0.10 0.008 0)",
+            border: "1px solid oklch(0.55 0.22 25 / 0.4)",
+            color: "oklch(0.95 0.01 0)",
           },
         }}
       />

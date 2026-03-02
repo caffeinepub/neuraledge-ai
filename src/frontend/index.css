@@ -23,55 +23,55 @@
   :root {
     --radius: 0.75rem;
 
-    /* ── Dark AI Theme Palette ── */
-    --background: 0.1 0.015 250;
-    --foreground: 0.95 0.01 230;
-    --card: 0.12 0.018 250;
-    --card-foreground: 0.95 0.01 230;
-    --popover: 0.13 0.02 250;
-    --popover-foreground: 0.95 0.01 230;
+    /* ── Black & Red THUNDER Theme ── */
+    --background: 0.07 0.005 0;
+    --foreground: 0.95 0.01 0;
+    --card: 0.10 0.008 0;
+    --card-foreground: 0.95 0.01 0;
+    --popover: 0.11 0.01 0;
+    --popover-foreground: 0.95 0.01 0;
 
-    /* Cyan electric accent as primary */
-    --primary: 0.82 0.18 200;
-    --primary-foreground: 0.08 0.02 250;
+    /* Bold red as primary */
+    --primary: 0.55 0.22 25;
+    --primary-foreground: 0.98 0.005 0;
 
-    --secondary: 0.16 0.022 250;
-    --secondary-foreground: 0.9 0.02 230;
+    --secondary: 0.14 0.015 0;
+    --secondary-foreground: 0.90 0.01 0;
 
-    --muted: 0.18 0.02 250;
-    --muted-foreground: 0.55 0.04 230;
+    --muted: 0.16 0.015 0;
+    --muted-foreground: 0.55 0.02 0;
 
-    --accent: 0.82 0.18 200;
-    --accent-foreground: 0.08 0.02 250;
+    --accent: 0.55 0.22 25;
+    --accent-foreground: 0.98 0.005 0;
 
     --destructive: 0.577 0.245 27.325;
     --destructive-foreground: 0.985 0 0;
 
-    --border: 0.25 0.03 250;
-    --input: 0.18 0.025 250;
-    --ring: 0.75 0.16 200;
+    --border: 0.22 0.02 0;
+    --input: 0.16 0.018 0;
+    --ring: 0.50 0.18 25;
 
-    --chart-1: 0.82 0.18 200;
-    --chart-2: 0.7 0.14 190;
-    --chart-3: 0.6 0.12 210;
-    --chart-4: 0.88 0.15 170;
-    --chart-5: 0.65 0.2 220;
+    --chart-1: 0.65 0.22 25;
+    --chart-2: 0.55 0.20 15;
+    --chart-3: 0.45 0.18 20;
+    --chart-4: 0.70 0.18 30;
+    --chart-5: 0.60 0.22 10;
 
-    --sidebar: 0.11 0.016 250;
-    --sidebar-foreground: 0.95 0.01 230;
-    --sidebar-primary: 0.82 0.18 200;
-    --sidebar-primary-foreground: 0.08 0.02 250;
-    --sidebar-accent: 0.16 0.022 250;
-    --sidebar-accent-foreground: 0.9 0.02 230;
-    --sidebar-border: 0.22 0.025 250;
-    --sidebar-ring: 0.75 0.16 200;
+    --sidebar: 0.09 0.008 0;
+    --sidebar-foreground: 0.95 0.01 0;
+    --sidebar-primary: 0.55 0.22 25;
+    --sidebar-primary-foreground: 0.98 0.005 0;
+    --sidebar-accent: 0.14 0.015 0;
+    --sidebar-accent-foreground: 0.90 0.01 0;
+    --sidebar-border: 0.22 0.02 0;
+    --sidebar-ring: 0.50 0.18 25;
 
-    /* Custom brand tokens */
-    --cyan-glow: 0.82 0.18 200;
-    --cyan-dim: 0.65 0.14 200;
-    --navy-deep: 0.08 0.018 252;
-    --navy-mid: 0.13 0.022 252;
-    --navy-surface: 0.16 0.025 248;
+    /* Custom brand tokens — keeping names, changed to red */
+    --cyan-glow: 0.55 0.22 25;
+    --cyan-dim: 0.45 0.16 25;
+    --navy-deep: 0.06 0.005 0;
+    --navy-mid: 0.10 0.008 0;
+    --navy-surface: 0.13 0.012 0;
   }
 
   * {
@@ -114,9 +114,9 @@
   .gradient-text {
     background: linear-gradient(
       135deg,
-      oklch(0.92 0.18 200) 0%,
-      oklch(0.75 0.22 215) 50%,
-      oklch(0.88 0.15 180) 100%
+      oklch(0.75 0.22 25) 0%,
+      oklch(0.55 0.22 25) 50%,
+      oklch(0.65 0.18 15) 100%
     );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;

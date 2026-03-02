@@ -29,7 +29,7 @@ export default function About() {
         className="absolute inset-0"
         style={{
           background:
-            "linear-gradient(180deg, oklch(0.11 0.018 252) 0%, oklch(0.12 0.02 250) 100%)",
+            "linear-gradient(180deg, oklch(0.09 0.007 0) 0%, oklch(0.10 0.008 0) 100%)",
         }}
         aria-hidden="true"
       />
@@ -46,7 +46,7 @@ export default function About() {
             <div className="section-line mb-6" />
             <span
               className="text-sm font-semibold uppercase tracking-[0.25em] mb-4 block"
-              style={{ color: "oklch(0.82 0.18 200)" }}
+              style={{ color: "oklch(0.70 0.22 25)" }}
             >
               Our Mission
             </span>
@@ -60,7 +60,7 @@ export default function About() {
               <span className="gradient-text">Competitive Advantage.</span>
             </h2>
             <p className="text-foreground/65 text-lg leading-relaxed mb-6">
-              NeuralEdge was founded on a single conviction: AI should be a
+              THUNDER was founded on a single conviction: AI should be a
               decisive business lever, not an experiment. We partner with
               forward-thinking organizations to architect, deploy, and optimize
               AI systems that deliver measurable, lasting impact.
@@ -78,13 +78,13 @@ export default function About() {
                   <span
                     className="flex-shrink-0 mt-0.5 w-5 h-5 rounded-full flex items-center justify-center"
                     style={{
-                      background: "oklch(0.82 0.18 200 / 0.15)",
+                      background: "oklch(0.55 0.22 25 / 0.15)",
                     }}
                     aria-hidden="true"
                   >
                     <CheckCircle2
                       size={12}
-                      style={{ color: "oklch(0.82 0.18 200)" }}
+                      style={{ color: "oklch(0.70 0.22 25)" }}
                     />
                   </span>
                   <span className="text-foreground/70 text-sm">{v}</span>
@@ -106,7 +106,7 @@ export default function About() {
               className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-64 h-64 rounded-full float-animation pointer-events-none"
               style={{
                 background:
-                  "radial-gradient(circle, oklch(0.82 0.18 200 / 0.12) 0%, oklch(0.75 0.22 215 / 0.06) 40%, transparent 70%)",
+                  "radial-gradient(circle, oklch(0.55 0.22 25 / 0.12) 0%, oklch(0.45 0.18 15 / 0.06) 40%, transparent 70%)",
               }}
               aria-hidden="true"
             />
@@ -127,18 +127,18 @@ export default function About() {
                     <div
                       className="w-10 h-10 rounded-xl flex items-center justify-center mb-4 transition-transform duration-300 group-hover:scale-110"
                       style={{
-                        background: "oklch(0.82 0.18 200 / 0.12)",
-                        boxShadow: "0 0 0 1px oklch(0.82 0.18 200 / 0.18)",
+                        background: "oklch(0.55 0.22 25 / 0.12)",
+                        boxShadow: "0 0 0 1px oklch(0.55 0.22 25 / 0.20)",
                       }}
                     >
                       <Icon
                         size={18}
-                        style={{ color: "oklch(0.82 0.18 200)" }}
+                        style={{ color: "oklch(0.70 0.22 25)" }}
                       />
                     </div>
                     <div
                       className="font-display font-extrabold text-3xl mb-1 stat-number"
-                      style={{ color: "oklch(0.88 0.16 200)" }}
+                      style={{ color: "oklch(0.75 0.22 25)" }}
                     >
                       {stat.value}
                     </div>
@@ -154,14 +154,14 @@ export default function About() {
             <div
               className="absolute -bottom-8 -right-8 w-48 h-48 rounded-full border border-dashed pointer-events-none"
               style={{
-                borderColor: "oklch(0.82 0.18 200 / 0.1)",
+                borderColor: "oklch(0.55 0.22 25 / 0.12)",
               }}
               aria-hidden="true"
             />
             <div
               className="absolute -top-8 -left-8 w-32 h-32 rounded-full border pointer-events-none"
               style={{
-                borderColor: "oklch(0.82 0.18 200 / 0.07)",
+                borderColor: "oklch(0.55 0.22 25 / 0.08)",
               }}
               aria-hidden="true"
             />

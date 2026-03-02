@@ -43,24 +43,24 @@ export default function Navbar() {
           type="button"
           className="flex items-center gap-3 group"
           onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
-          aria-label="NeuralEdge AI — Home"
+          aria-label="THUNDER AI — Home"
         >
           <div className="relative">
             <img
               src="/assets/generated/logo-transparent.dim_200x200.png"
-              alt="NeuralEdge AI logo"
+              alt="THUNDER AI logo"
               className="w-9 h-9 object-contain transition-transform duration-300 group-hover:scale-110"
             />
             <div
               className="absolute inset-0 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300"
               style={{
-                boxShadow: "0 0 16px oklch(0.82 0.18 200 / 0.5)",
+                boxShadow: "0 0 16px oklch(0.55 0.22 25 / 0.6)",
               }}
               aria-hidden="true"
             />
           </div>
           <span className="font-display font-bold text-xl tracking-tight">
-            Neural<span className="gradient-text">Edge</span>
+            <span className="gradient-text">THUNDER</span>
           </span>
         </button>
 
@@ -87,8 +87,8 @@ export default function Navbar() {
             className="font-semibold px-6 glow-cyan transition-all duration-300 hover:scale-105"
             style={{
               background:
-                "linear-gradient(135deg, oklch(0.82 0.18 200), oklch(0.7 0.22 210))",
-              color: "oklch(0.08 0.02 250)",
+                "linear-gradient(135deg, oklch(0.65 0.22 25), oklch(0.50 0.22 15))",
+              color: "oklch(0.98 0.005 0)",
             }}
           >
             Get Started
@@ -138,8 +138,8 @@ export default function Navbar() {
                   className="w-full font-semibold"
                   style={{
                     background:
-                      "linear-gradient(135deg, oklch(0.82 0.18 200), oklch(0.7 0.22 210))",
-                    color: "oklch(0.08 0.02 250)",
+                      "linear-gradient(135deg, oklch(0.65 0.22 25), oklch(0.50 0.22 15))",
+                    color: "oklch(0.98 0.005 0)",
                   }}
                 >
                   Get Started

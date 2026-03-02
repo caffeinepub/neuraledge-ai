@@ -18,7 +18,7 @@ const contactInfo = [
   {
     icon: Mail,
     label: "Email Us",
-    value: "hello@neuraledge.ai",
+    value: "Mohammedkaifkhan030@gmail.com",
   },
   {
     icon: MapPin,
@@ -104,7 +104,7 @@ export default function Contact() {
         className="absolute inset-0"
         style={{
           background:
-            "linear-gradient(180deg, oklch(0.1 0.015 250) 0%, oklch(0.09 0.016 252) 100%)",
+            "linear-gradient(180deg, oklch(0.08 0.006 0) 0%, oklch(0.07 0.005 0) 100%)",
         }}
         aria-hidden="true"
       />
@@ -115,7 +115,7 @@ export default function Contact() {
         className="absolute bottom-0 left-1/2 -translate-x-1/2 w-2/3 h-[300px] orb pointer-events-none"
         style={{
           background:
-            "radial-gradient(ellipse, oklch(0.82 0.18 200 / 0.08) 0%, transparent 70%)",
+            "radial-gradient(ellipse, oklch(0.55 0.22 25 / 0.1) 0%, transparent 70%)",
         }}
         aria-hidden="true"
       />
@@ -132,7 +132,7 @@ export default function Contact() {
           <div className="section-line mx-auto mb-6" />
           <span
             className="text-sm font-semibold uppercase tracking-[0.25em] mb-4 block"
-            style={{ color: "oklch(0.82 0.18 200)" }}
+            style={{ color: "oklch(0.70 0.22 25)" }}
           >
             Get In Touch
           </span>
@@ -168,11 +168,11 @@ export default function Contact() {
                   <div
                     className="w-10 h-10 rounded-xl flex items-center justify-center flex-shrink-0"
                     style={{
-                      background: "oklch(0.82 0.18 200 / 0.12)",
-                      boxShadow: "0 0 0 1px oklch(0.82 0.18 200 / 0.18)",
+                      background: "oklch(0.55 0.22 25 / 0.12)",
+                      boxShadow: "0 0 0 1px oklch(0.55 0.22 25 / 0.20)",
                     }}
                   >
-                    <Icon size={18} style={{ color: "oklch(0.82 0.18 200)" }} />
+                    <Icon size={18} style={{ color: "oklch(0.70 0.22 25)" }} />
                   </div>
                   <div>
                     <div className="text-xs uppercase tracking-widest text-foreground/45 mb-1">
@@ -191,14 +191,14 @@ export default function Contact() {
               className="mt-4 p-5 rounded-xl relative overflow-hidden"
               style={{
                 background:
-                  "linear-gradient(135deg, oklch(0.82 0.18 200 / 0.08), oklch(0.68 0.22 215 / 0.05))",
-                border: "1px solid oklch(0.82 0.18 200 / 0.15)",
+                  "linear-gradient(135deg, oklch(0.55 0.22 25 / 0.10), oklch(0.45 0.18 15 / 0.06))",
+                border: "1px solid oklch(0.55 0.22 25 / 0.18)",
               }}
             >
               <p className="text-sm text-foreground/65 leading-relaxed">
                 <span
                   className="font-semibold"
-                  style={{ color: "oklch(0.82 0.18 200)" }}
+                  style={{ color: "oklch(0.70 0.22 25)" }}
                 >
                   No commitment needed.
                 </span>{" "}
@@ -333,9 +333,9 @@ export default function Contact() {
                 className="w-full font-semibold text-base glow-cyan transition-all duration-300 hover:scale-[1.02] group"
                 style={{
                   background: isPending
-                    ? "oklch(0.55 0.1 200)"
-                    : "linear-gradient(135deg, oklch(0.82 0.18 200), oklch(0.68 0.22 210))",
-                  color: "oklch(0.08 0.02 250)",
+                    ? "oklch(0.40 0.12 25)"
+                    : "linear-gradient(135deg, oklch(0.65 0.22 25), oklch(0.50 0.22 15))",
+                  color: "oklch(0.98 0.005 0)",
                 }}
               >
                 {isPending ? (

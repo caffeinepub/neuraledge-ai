@@ -27,7 +27,7 @@ export default function Hero() {
           className="absolute inset-0"
           style={{
             background:
-              "linear-gradient(180deg, oklch(0.08 0.018 252 / 0.7) 0%, oklch(0.08 0.018 252 / 0.85) 50%, oklch(0.1 0.015 250 / 0.95) 100%)",
+              "linear-gradient(180deg, oklch(0.07 0.005 0 / 0.75) 0%, oklch(0.07 0.005 0 / 0.88) 50%, oklch(0.08 0.005 0 / 0.96) 100%)",
           }}
         />
       </div>
@@ -43,7 +43,7 @@ export default function Hero() {
         className="absolute top-1/4 left-1/3 w-[600px] h-[600px] orb z-0"
         style={{
           background:
-            "radial-gradient(circle, oklch(0.82 0.18 200 / 0.12) 0%, transparent 60%)",
+            "radial-gradient(circle, oklch(0.55 0.22 25 / 0.12) 0%, transparent 60%)",
         }}
         aria-hidden="true"
       />
@@ -51,7 +51,7 @@ export default function Hero() {
         className="absolute bottom-1/4 right-1/4 w-[400px] h-[400px] orb z-0"
         style={{
           background:
-            "radial-gradient(circle, oklch(0.75 0.22 215 / 0.1) 0%, transparent 60%)",
+            "radial-gradient(circle, oklch(0.65 0.22 15 / 0.1) 0%, transparent 60%)",
         }}
         aria-hidden="true"
       />
@@ -64,11 +64,11 @@ export default function Hero() {
           transition={{ duration: 0.6, delay: 0.1 }}
           className="inline-flex items-center gap-2 px-4 py-2 rounded-full text-sm font-medium mb-8 glass-card"
           style={{
-            color: "oklch(0.82 0.18 200)",
+            color: "oklch(0.70 0.22 25)",
           }}
         >
           <Sparkles size={14} className="flex-shrink-0" />
-          <span>Next-Generation AI Solutions for Enterprise</span>
+          <span>Unleash the Power of THUNDER Intelligence</span>
         </motion.div>
 
         <motion.h1
@@ -81,11 +81,11 @@ export default function Hero() {
             fontSize: "clamp(2.5rem, 7vw, 5.5rem)",
           }}
         >
-          The Future of
+          The Power of
           <br />
-          <span className="gradient-text glow-cyan-text">Intelligence</span>
+          <span className="gradient-text glow-cyan-text">THUNDER</span>
           <br />
-          is Here
+          Intelligence
         </motion.h1>
 
         <motion.p
@@ -111,8 +111,8 @@ export default function Hero() {
             className="font-semibold px-8 py-6 text-base glow-cyan transition-all duration-300 hover:scale-105 group"
             style={{
               background:
-                "linear-gradient(135deg, oklch(0.82 0.18 200), oklch(0.68 0.22 210))",
-              color: "oklch(0.08 0.02 250)",
+                "linear-gradient(135deg, oklch(0.65 0.22 25), oklch(0.50 0.22 15))",
+              color: "oklch(0.98 0.005 0)",
             }}
           >
             Start Your AI Journey
@@ -128,13 +128,13 @@ export default function Hero() {
             onClick={() => handleScroll("#services")}
             className="font-semibold px-8 py-6 text-base border-border/50 hover:border-primary/50 bg-transparent transition-all duration-300 hover:scale-105 group"
             style={{
-              color: "oklch(0.95 0.01 230)",
+              color: "oklch(0.95 0.01 0)",
             }}
           >
             <Play
               size={16}
               className="mr-2 transition-transform duration-300 group-hover:scale-110"
-              style={{ color: "oklch(0.82 0.18 200)" }}
+              style={{ color: "oklch(0.65 0.22 25)" }}
             />
             Explore Services
           </Button>
@@ -155,7 +155,7 @@ export default function Hero() {
             <div key={stat.label} className="text-center">
               <div
                 className="font-display font-bold text-2xl sm:text-3xl mb-1"
-                style={{ color: "oklch(0.82 0.18 200)" }}
+                style={{ color: "oklch(0.70 0.22 25)" }}
               >
                 {stat.value}
               </div>

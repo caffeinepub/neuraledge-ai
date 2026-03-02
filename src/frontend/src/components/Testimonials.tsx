@@ -4,7 +4,7 @@ import { type Variants, motion } from "motion/react";
 const testimonials = [
   {
     quote:
-      "NeuralEdge completely transformed our logistics operations. Their AI automation system reduced our processing time by 65% within 90 days of deployment. The ROI was undeniable from day one.",
+      "THUNDER completely transformed our logistics operations. Their AI automation system reduced our processing time by 65% within 90 days of deployment. The ROI was undeniable from day one.",
     name: "Sarah Chen",
     role: "Chief Operations Officer",
     company: "Apex Logistics Group",
@@ -20,7 +20,7 @@ const testimonials = [
   },
   {
     quote:
-      "We evaluated six AI agencies before choosing NeuralEdge. The difference is their depth of domain expertise. They built a custom model tailored to our medical imaging data that outperforms all off-the-shelf solutions.",
+      "We evaluated six AI agencies before choosing THUNDER. The difference is their depth of domain expertise. They built a custom model tailored to our medical imaging data that outperforms all off-the-shelf solutions.",
     name: "Dr. Elena Vasquez",
     role: "Director of Innovation",
     company: "HelixMed Technologies",
@@ -56,7 +56,7 @@ export default function Testimonials() {
         className="absolute inset-0"
         style={{
           background:
-            "linear-gradient(180deg, oklch(0.12 0.02 250) 0%, oklch(0.1 0.015 250) 100%)",
+            "linear-gradient(180deg, oklch(0.10 0.008 0) 0%, oklch(0.08 0.006 0) 100%)",
         }}
         aria-hidden="true"
       />
@@ -67,7 +67,7 @@ export default function Testimonials() {
         className="absolute top-0 left-1/2 -translate-x-1/2 w-full h-px"
         style={{
           background:
-            "linear-gradient(90deg, transparent, oklch(0.82 0.18 200 / 0.3), transparent)",
+            "linear-gradient(90deg, transparent, oklch(0.55 0.22 25 / 0.3), transparent)",
         }}
         aria-hidden="true"
       />
@@ -84,7 +84,7 @@ export default function Testimonials() {
           <div className="section-line mx-auto mb-6" />
           <span
             className="text-sm font-semibold uppercase tracking-[0.25em] mb-4 block"
-            style={{ color: "oklch(0.82 0.18 200)" }}
+            style={{ color: "oklch(0.70 0.22 25)" }}
           >
             Client Stories
           </span>
@@ -118,12 +118,12 @@ export default function Testimonials() {
               <div
                 className="w-10 h-10 rounded-xl flex items-center justify-center mb-5 flex-shrink-0"
                 style={{
-                  background: "oklch(0.82 0.18 200 / 0.1)",
-                  boxShadow: "0 0 0 1px oklch(0.82 0.18 200 / 0.15)",
+                  background: "oklch(0.55 0.22 25 / 0.10)",
+                  boxShadow: "0 0 0 1px oklch(0.55 0.22 25 / 0.18)",
                 }}
                 aria-hidden="true"
               >
-                <Quote size={18} style={{ color: "oklch(0.82 0.18 200)" }} />
+                <Quote size={18} style={{ color: "oklch(0.70 0.22 25)" }} />
               </div>
 
               {/* Quote text */}
@@ -137,9 +137,9 @@ export default function Testimonials() {
                   className="w-10 h-10 rounded-full flex items-center justify-center flex-shrink-0 font-display font-bold text-sm"
                   style={{
                     background:
-                      "linear-gradient(135deg, oklch(0.82 0.18 200 / 0.25), oklch(0.68 0.22 215 / 0.2))",
-                    color: "oklch(0.88 0.16 200)",
-                    border: "1px solid oklch(0.82 0.18 200 / 0.25)",
+                      "linear-gradient(135deg, oklch(0.55 0.22 25 / 0.25), oklch(0.45 0.18 15 / 0.20))",
+                    color: "oklch(0.80 0.20 25)",
+                    border: "1px solid oklch(0.55 0.22 25 / 0.28)",
                   }}
                   aria-label={`${t.name} avatar`}
                 >

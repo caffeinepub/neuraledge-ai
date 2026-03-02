@@ -62,7 +62,7 @@ export default function Services() {
         className="absolute inset-0"
         style={{
           background:
-            "linear-gradient(180deg, oklch(0.1 0.015 250) 0%, oklch(0.11 0.018 252) 100%)",
+            "linear-gradient(180deg, oklch(0.08 0.006 0) 0%, oklch(0.09 0.007 0) 100%)",
         }}
         aria-hidden="true"
       />
@@ -80,7 +80,7 @@ export default function Services() {
           <div className="section-line mx-auto mb-6" />
           <span
             className="text-sm font-semibold uppercase tracking-[0.25em] mb-4 block"
-            style={{ color: "oklch(0.82 0.18 200)" }}
+            style={{ color: "oklch(0.70 0.22 25)" }}
           >
             What We Build
           </span>
@@ -119,7 +119,7 @@ export default function Services() {
                   className="absolute inset-0 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none"
                   style={{
                     background:
-                      "linear-gradient(135deg, oklch(0.82 0.18 200 / 0.04) 0%, transparent 60%)",
+                      "linear-gradient(135deg, oklch(0.55 0.22 25 / 0.05) 0%, transparent 60%)",
                   }}
                   aria-hidden="true"
                 />
@@ -129,11 +129,11 @@ export default function Services() {
                   className="relative w-12 h-12 rounded-xl flex items-center justify-center mb-5 flex-shrink-0 transition-transform duration-300 group-hover:scale-110"
                   style={{
                     background:
-                      "linear-gradient(135deg, oklch(0.82 0.18 200 / 0.15), oklch(0.75 0.22 215 / 0.1))",
-                    boxShadow: "0 0 0 1px oklch(0.82 0.18 200 / 0.2)",
+                      "linear-gradient(135deg, oklch(0.55 0.22 25 / 0.15), oklch(0.45 0.18 15 / 0.10))",
+                    boxShadow: "0 0 0 1px oklch(0.55 0.22 25 / 0.22)",
                   }}
                 >
-                  <Icon size={22} style={{ color: "oklch(0.82 0.18 200)" }} />
+                  <Icon size={22} style={{ color: "oklch(0.70 0.22 25)" }} />
                 </div>
 
                 {/* Content */}
@@ -148,14 +148,14 @@ export default function Services() {
                 <div
                   className="inline-flex items-center gap-1.5 text-xs font-medium rounded-full px-3 py-1.5 mt-auto self-start"
                   style={{
-                    background: "oklch(0.82 0.18 200 / 0.1)",
-                    color: "oklch(0.82 0.18 200)",
-                    border: "1px solid oklch(0.82 0.18 200 / 0.2)",
+                    background: "oklch(0.55 0.22 25 / 0.1)",
+                    color: "oklch(0.70 0.22 25)",
+                    border: "1px solid oklch(0.55 0.22 25 / 0.22)",
                   }}
                 >
                   <span
                     className="w-1.5 h-1.5 rounded-full flex-shrink-0"
-                    style={{ background: "oklch(0.82 0.18 200)" }}
+                    style={{ background: "oklch(0.70 0.22 25)" }}
                     aria-hidden="true"
                   />
                   {service.highlight}

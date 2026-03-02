@@ -23,7 +23,7 @@ export default function Footer() {
       <div
         className="absolute inset-0"
         style={{
-          background: "oklch(0.08 0.018 252)",
+          background: "oklch(0.06 0.005 0)",
         }}
         aria-hidden="true"
       />
@@ -32,7 +32,7 @@ export default function Footer() {
         className="absolute top-0 left-0 right-0 h-px"
         style={{
           background:
-            "linear-gradient(90deg, transparent, oklch(0.82 0.18 200 / 0.2), transparent)",
+            "linear-gradient(90deg, transparent, oklch(0.55 0.22 25 / 0.3), transparent)",
         }}
         aria-hidden="true"
       />
@@ -50,11 +50,11 @@ export default function Footer() {
             <div className="flex items-center gap-3">
               <img
                 src="/assets/generated/logo-transparent.dim_200x200.png"
-                alt="NeuralEdge AI logo"
+                alt="THUNDER AI logo"
                 className="w-8 h-8 object-contain"
               />
               <span className="font-display font-bold text-xl tracking-tight">
-                Neural<span className="gradient-text">Edge</span>
+                <span className="gradient-text">THUNDER</span>
               </span>
             </div>
             <p className="text-foreground/40 text-sm max-w-xs">
@@ -84,7 +84,7 @@ export default function Footer() {
             className="w-full max-w-sm h-px"
             style={{
               background:
-                "linear-gradient(90deg, transparent, oklch(0.82 0.18 200 / 0.12), transparent)",
+                "linear-gradient(90deg, transparent, oklch(0.55 0.22 25 / 0.18), transparent)",
             }}
             aria-hidden="true"
           />
